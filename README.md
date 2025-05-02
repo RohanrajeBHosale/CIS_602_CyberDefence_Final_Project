@@ -18,12 +18,14 @@ This project detects real-time network anomalies using multiple machine learning
 
 3. Run the program:
    ```
-   python network_monitor.py
+   python isotrain.py
+   python isomodel.py
+   python injector.py
    ```
 
 4. Follow the menu options to train/load models and start real-time detection.
 
 ## Features
-- Supports Isolation Forest, Autoencoder, and One-Class SVM.
+- Supports Isolation Forest,
 - Real-time network packet monitoring.
 - Visualization of anomaly scores, protocol distribution, and top source IPs.
